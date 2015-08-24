@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethan.GateWay.Entity", "Ethan.GateWay.Entity\Ethan.GateWay.Entity.csproj", "{D0CF0C5E-52D2-407F-A878-6DD0EBC5B9D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethan.GateWay.DAL", "Ethan.GateWay.DAL\Ethan.GateWay.DAL.csproj", "{BA3DACAF-219C-432C-AC3E-C6201B1FF148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethan.GateWay.IDAL", "Ethan.GateWay.IDAL\Ethan.GateWay.IDAL.csproj", "{44772DF3-1D6F-42F4-AEE1-2C333E08947F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethan.GateWay.Business", "Ethan.GateWay.Business\Ethan.GateWay.Business.csproj", "{8FC17D5F-6033-4F3B-B22E-165482A052A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethan.GateWay.IBusiness", "Ethan.GateWay.IBusiness\Ethan.GateWay.IBusiness.csproj", "{A0E3E6DD-C460-4D44-8D6D-AFE63434C676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethan.GateWay.WebApp", "Ethan.GateWay.WebApp\Ethan.GateWay.WebApp.csproj", "{0F866779-06FC-4D76-B966-B07DC236A4E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethan.GateWay.Factory", "Ethan.GateWay.Factory\Ethan.GateWay.Factory.csproj", "{7C1B1C35-E6B2-4880-A668-16A2A44390B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0CF0C5E-52D2-407F-A878-6DD0EBC5B9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CF0C5E-52D2-407F-A878-6DD0EBC5B9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CF0C5E-52D2-407F-A878-6DD0EBC5B9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CF0C5E-52D2-407F-A878-6DD0EBC5B9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3DACAF-219C-432C-AC3E-C6201B1FF148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3DACAF-219C-432C-AC3E-C6201B1FF148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3DACAF-219C-432C-AC3E-C6201B1FF148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3DACAF-219C-432C-AC3E-C6201B1FF148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44772DF3-1D6F-42F4-AEE1-2C333E08947F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44772DF3-1D6F-42F4-AEE1-2C333E08947F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44772DF3-1D6F-42F4-AEE1-2C333E08947F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44772DF3-1D6F-42F4-AEE1-2C333E08947F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC17D5F-6033-4F3B-B22E-165482A052A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC17D5F-6033-4F3B-B22E-165482A052A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC17D5F-6033-4F3B-B22E-165482A052A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC17D5F-6033-4F3B-B22E-165482A052A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E3E6DD-C460-4D44-8D6D-AFE63434C676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E3E6DD-C460-4D44-8D6D-AFE63434C676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E3E6DD-C460-4D44-8D6D-AFE63434C676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E3E6DD-C460-4D44-8D6D-AFE63434C676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F866779-06FC-4D76-B966-B07DC236A4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F866779-06FC-4D76-B966-B07DC236A4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F866779-06FC-4D76-B966-B07DC236A4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F866779-06FC-4D76-B966-B07DC236A4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1B1C35-E6B2-4880-A668-16A2A44390B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1B1C35-E6B2-4880-A668-16A2A44390B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1B1C35-E6B2-4880-A668-16A2A44390B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1B1C35-E6B2-4880-A668-16A2A44390B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

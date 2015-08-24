@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D0CF0C5E-52D2-407F-A878-6DD0EBC5B9D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ethan.GateWay.Entity</RootNamespace>
+    <AssemblyName>Ethan.GateWay.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="ClientUserMap.cs" />
+    <Compile Include="ClientUserMapContactCentre.cs" />
+    <Compile Include="Client_Site.cs" />
+    <Compile Include="ConfigurationSetting.cs" />
+    <Compile Include="ConnectionSettings.cs" />
+    <Compile Include="ConnectionSettingsAS2Details.cs" />
+    <Compile Include="ConnectionSettingsEmailTemplate.cs" />
+    <Compile Include="ConnectionType.cs" />
+    <Compile Include="DocumentAddress.cs" />
+    <Compile Include="DocumentAddressType.cs" />
+    <Compile Include="DocumentHeader.cs" />
+    <Compile Include="DocumentLine.cs" />
+    <Compile Include="DocumentLog.cs" />
+    <Compile Include="DocumentStatus.cs" />
+    <Compile Include="DocumentType.cs" />
+    <Compile Include="ParcelTracking.cs" />
+    <Compile Include="ParcelTrackingDetails.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RerouteParcelTracking.cs" />
+    <Compile Include="SchemaVersions.cs" />
+    <Compile Include="Signal.cs" />
+    <Compile Include="SignalDefinition.cs" />
+    <Compile Include="SignalHeader.cs" />
+    <Compile Include="SignalName.cs" />
+    <Compile Include="SignalPartner.cs" />
+    <Compile Include="SignalPartnerConfigSetting.cs" />
+    <Compile Include="SignalPartnerConfigSettingField.cs" />
+    <Compile Include="SignalPartnerExternalCode.cs" />
+    <Compile Include="SignalPartnerNotificationLog.cs" />
+    <Compile Include="SignalPartnerSiteMap.cs" />
+    <Compile Include="SignalPartnerUserMap.cs" />
+    <Compile Include="SignalProcessingMode.cs" />
+    <Compile Include="SignalRegeneration.cs" />
+    <Compile Include="SignalSetting.cs" />
+    <Compile Include="SignalStep.cs" />
+    <Compile Include="SignalTracker.cs" />
+    <Compile Include="SignalTrackerDetails.cs" />
+    <Compile Include="SignalTrackerExtendedDetails.cs" />
+    <Compile Include="SignalTrackerLog.cs" />
+    <Compile Include="SignalTrackerStatus.cs" />
+    <Compile Include="SignalType.cs" />
+    <Compile Include="Site.cs" />
+    <Compile Include="SiteExternalCode.cs" />
+    <Compile Include="Step.cs" />
+    <Compile Include="TrackAndTraceLog.cs" />
+    <Compile Include="UserClientsMap.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
